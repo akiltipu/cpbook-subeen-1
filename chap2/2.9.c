@@ -1,3 +1,11 @@
+/***********************************
+ *Computer Programming: Part-1
+ *Chapter 2: Data Type, Input and Output
+ *Example: 2.9
+ *Author: Md Akil Mahmod Tipu
+ *Email: amtipu.bb@gmail.com
+
+ ***********************************/
 #include <stdio.h>
 
 int main ()
