@@ -1,3 +1,11 @@
+/***********************************
+ *Computer Programming: Part-1
+ *Chapter 3: Conditional Logic
+ *Example: 3.9.1
+ *Author: Md Akil Mahmod Tipu
+ *Email: amtipu.bb@gmail.com
+ 
+ ***********************************/
 #include <stdio.h>
 int main()
 {
