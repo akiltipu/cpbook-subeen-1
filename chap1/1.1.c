@@ -1,5 +1,5 @@
 /***********************************
- *Computer Programming: Part-1
+ *Book: Computer Programming: 1
  *Chapter 1: First Program
  *Example: 1.1
  *Author: Md Akil Mahmod Tipu
