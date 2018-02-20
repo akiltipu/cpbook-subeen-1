@@ -12,6 +12,7 @@ int main ()
 
 {
     int num1, num2;
+    
     printf("Please enter a number: ");
     scanf("%d", &num1);
 

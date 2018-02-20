@@ -32,6 +32,5 @@ int main()
     printf("Value of a is %d\n", a);
 
 
-
     return 0;
 }

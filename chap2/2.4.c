@@ -19,6 +19,6 @@ int main()
     x = 2;
 
     printf("%d", y);
+    
     return 0;
-
-    }
+}

@@ -41,5 +41,4 @@ int main ()
     printf("The Quotient is: %d\n", bi);
 
     return 0;
-
 }

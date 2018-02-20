@@ -23,5 +23,5 @@ int main ()
     printf("Sum is: %0.2lf\n", sum);
 
 
-return 0;
+    return 0;
 }
