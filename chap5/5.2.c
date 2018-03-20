@@ -3,7 +3,7 @@
  *Chapter 5: Basic Math
  *Example: 5.2
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>

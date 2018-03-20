@@ -3,7 +3,7 @@
  *Chapter 5: Basic Math
  *Example: 5.10
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -15,15 +15,20 @@ int main ()
     scanf("%d %d", &a, &b);
 
     mul = a * b;
+    
     if ( a == 0) gcd = a;
+    
     else if ( b == 0) gcd = b;
 
-    else {
-        while (b != 0){
+    else 
+    {
+        while (b != 0)
+        {
             t = b;
             b = a % b;
             a = t;
         }
+        
         gcd = a;
     }
 
@@ -32,7 +37,7 @@ int main ()
 
    printf("LCM is %d\n", lcm);
 
-    return 0;
+   return 0;
 }
 
 

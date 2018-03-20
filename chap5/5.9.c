@@ -3,7 +3,7 @@
  *Chapter 5: Basic Math
  *Example: 5.9
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -17,15 +17,20 @@ int main ()
     if ( a == 0) gcd = a;
     else if ( b == 0) gcd = b;
 
-    else {
-        while (b != 0){
+    else 
+    {
+        while (b != 0)
+        {
             t = b;
             b = a % b;
             a = t;
         }
+        
         gcd = a;
     }
+    
     printf("GCD is %d\n", gcd);
+    
     return 0;
 }
 

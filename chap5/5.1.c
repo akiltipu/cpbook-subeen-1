@@ -3,8 +3,7 @@
  *Chapter 5: Basic Math
  *Example: 5.1
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
- 
+ * www.akiltipu.com
  ***********************************/
 #include <stdio.h>
 int main ()
