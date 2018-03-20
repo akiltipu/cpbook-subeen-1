@@ -3,7 +3,7 @@
  *Chapter 3: Conditional Logic
  *Example: 3.9
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -12,11 +12,15 @@ int main()
 
 {
     int number = 18;
-    if (number % 2 == 0){
+    
+    if (number % 2 == 0)
+    {
         printf("The number is even\n");
     }
-    else {
+    else 
+    {
         printf("The number is odd\n");
     }
+    
     return 0;
 }

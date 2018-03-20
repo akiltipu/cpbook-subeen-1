@@ -3,7 +3,7 @@
  *Chapter 3: Conditional Logic
  *Example: 3.12
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -11,11 +11,13 @@ int main()
 {
     char ch = 'i' ;
 
-    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+    if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+    {
         printf("%c is vowel\n", ch);
     }
 
-    else {
+    else 
+    {
         printf("%c is consonant\n", ch);
     }
 

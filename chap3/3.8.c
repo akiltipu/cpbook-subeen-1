@@ -3,7 +3,7 @@
  *Chapter 3: Conditional Logic
  *Example: 3.8
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -16,10 +16,12 @@ int main()
 
     remainder = number % 2;
 
-    if (remainder == 0){
+    if (remainder == 0)
+    {
         printf("The number is even\n");
     }
-    else {
+    else 
+    {
         printf("The number is odd\n");
     }
 
