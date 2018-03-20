@@ -3,7 +3,7 @@
  *Chapter 7: Function
  *Example: 7.7
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -26,11 +26,13 @@ int find_max(int ara[], int n)
     int max = ara[0];
     int i;
 
-    for(i = 1; i < n; i++){
-        if(ara[i] > max){
+    for(i = 1; i < n; i++)
+    {
+        if(ara[i] > max)
+        {
             max = ara[i];
-
         }
     }
+    
     return max;
 }

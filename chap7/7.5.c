@@ -3,7 +3,7 @@
  *Chapter 7: Function
  *Example: 7.5
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>

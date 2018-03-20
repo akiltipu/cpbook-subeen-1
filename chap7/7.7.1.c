@@ -3,7 +3,7 @@
  *Chapter 7: Function
  *Example: 7.7.1
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -26,12 +26,14 @@ int find_min(int ara[], int n)
     int min = ara[0];
     int i;
 
-    for(i = 1; i < n; i++){
-        if(ara[i] < min){
+    for(i = 1; i < n; i++)
+    {
+        if(ara[i] < min)
+        {
             min = ara[i];
-
         }
     }
+    
     return min;
 }
 

@@ -3,7 +3,7 @@
  *Chapter 7: Function
  *Example: 7.6.1
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -23,5 +23,4 @@ int main()
     printf("%lf\n", pi);
 
     return 0;
-
 }
