@@ -3,7 +3,7 @@
  *Chapter 9: String
  *Example: 9.4
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -18,8 +18,11 @@ int main()
     printf(" %s\n",  country);
 
     length = 10;
-    for( i = 0; i < length; i++ ){
-        if(country[i] >= 97 &&  country[i] <= 122){
+    
+    for( i = 0; i < length; i++ )
+    {
+        if(country[i] >= 97 &&  country[i] <= 122)
+        {
             country[i] = 'A' + (country[i] - 'a');
         }
     }
