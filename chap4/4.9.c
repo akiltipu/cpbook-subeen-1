@@ -3,7 +3,7 @@
  *Chapter 4: LOOP
  *Example: 4.9
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -14,7 +14,8 @@ int main ()
 
     m = 0;
 
-    for (i = 1; i <= 10; i = i +1){
+    for (i = 1; i <= 10; i = i +1)
+    {
         m = m + n;
         printf("%d * %d = %d\n", n, i, m);
 

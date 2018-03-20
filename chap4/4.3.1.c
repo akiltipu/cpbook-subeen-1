@@ -3,7 +3,7 @@
  *Chapter 4: LOOP
  *Example: 4.3
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -11,7 +11,8 @@
 int main ()
 {
     int n = 1;
-    while (1){
+    while (1)
+    {
         printf("%d",n);
     }
 
