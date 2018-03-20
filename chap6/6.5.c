@@ -3,7 +3,7 @@
  *Chapter 6: Array
  *Example: 6.5
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com 
  
  ***********************************/
 #include <stdio.h>
@@ -14,14 +14,18 @@ int main()
     int ara2[10];
     int i, j;
 
-    for (i = 0, j = 9; i < 10; i++, j--){
+    for (i = 0, j = 9; i < 10; i++, j--)
+    {
         ara2[j] = ara[i];
-
     }
-    for(i = 0; i < 10; i++){
+    
+    for(i = 0; i < 10; i++)
+    {
         ara[i] = ara2[i];
     }
-    for (i = 0; i < 10; i++){
+    
+    for (i = 0; i < 10; i++)
+    {
         printf("%d\n", ara[i]);
     }
 

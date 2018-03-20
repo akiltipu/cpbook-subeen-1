@@ -3,7 +3,7 @@
  *Chapter 6: Array
  *Example: 6.1
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>

@@ -3,7 +3,7 @@
  *Chapter 6: Array
  *Example: 6.6.1. Reverse array
  *Author: Md Akil Mahmod Tipu
- *Email: akilmahmod.tipu@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>

@@ -3,7 +3,7 @@
  *Chapter 6: Array
  *Example: 6.4.1
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -15,7 +15,8 @@ int main ()
 
     int i;
 
-    for ( i = 9; i >= 0; i--){
+    for ( i = 9; i >= 0; i--)
+    {
         printf(" %d th element is:  %d\n", i+1, ara[i]);
 
     }
