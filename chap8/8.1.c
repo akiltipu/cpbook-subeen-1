@@ -3,7 +3,7 @@
  *Chapter 8: Binary Search
  *Example: 8.1
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
 #include <stdio.h>
@@ -16,28 +16,33 @@ int main()
     int mid_indx;
     int num = 100;
 
-    while (low_indx <= high_indx){
+    while (low_indx <= high_indx)
+    {
         mid_indx = (low_indx + high_indx) / 2;
 
-        if ( num == ara[mid_indx]){
+        if ( num == ara[mid_indx])
+        {
             break;
         }
-        if ( num < ara[mid_indx]){
+        if ( num < ara[mid_indx])
+        {
             high_indx = mid_indx - 1;
-
         }
-        else{
+        else
+        {
             low_indx = mid_indx + 1;
         }
     }
-    if( low_indx > high_indx){
+    
+    if( low_indx > high_indx)
+    {
         printf("%d is not found in the array.\n", num);
     }
-    else{
+    else
+    {
         printf("%d  is found in the array. It is the %d element of the array. \n", ara[mid_indx], mid_indx);
 
     }
+    
     return 0;
-
-
 }

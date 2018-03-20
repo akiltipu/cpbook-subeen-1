@@ -4,7 +4,7 @@
  *Chapter 8: Binary Search
  *Example: 8.00
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  
  ***********************************/
  #include <stdio.h>
@@ -18,18 +18,23 @@ int main()
     mid_index;
     num = 97;
 
-    while(1){
+    while(1)
+    {
         mid_index = (low_index + high_index) / 2;
-        if(num == ara [mid_index]){
+        
+        if(num == ara [mid_index])
+        {
             break;
         }
-        if(num < ara[mid_index]){
+        if(num < ara[mid_index])
+        {
             high_index = mid_index - 1;
 
         }
-        else {
+        else 
+        {
             low_index = mid_index +1;
         }
-
+        
     }
 }
