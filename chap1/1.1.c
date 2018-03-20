@@ -3,7 +3,7 @@
  *Chapter 1: First Program
  *Example: 1.1
  *Author: Md Akil Mahmod Tipu
- *Email: amtipu.bb@gmail.com
+ * www.akiltipu.com
  *Say Hello to the World*
 
  ***********************************/
